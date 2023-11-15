@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 60%;
+    position: relative;
+}
+h1 {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    color: brown;
+}
+label {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+input {
+    position: absolute;
+    right: 20px;
+    padding: 1vh 1vw;
+    outline: none;
+}
+button {
+    padding: 0.5vh 2vw;
+    background-color: green;
+    font-size: 24px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
